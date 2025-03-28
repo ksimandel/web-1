@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje kavárna</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1 class="nadpis">Vítejte v mé kavárně <br> "U Dobré chuti"</h1>
+    <div class="coffee">
+        <i class="fas fa-coffee" class="coffee"></i>
+    </div>
+    <p>Tady najdete to nejlepší espresso ve městě.</p>
+    <h2 class="menu_nadpis">Naše menu:</h2>
+    <ul class="menu">
+        <li>Espresso - 35 Kč</li>
+        <li>Cappuccino - 45 Kč</li>
+        <li>Latté - 50 Kč</li>
+    </ul>
+    <h2 class="tabulka_nadpis">Naše otevírací doba:</h2>
+    <div class="tabulka_contentier">
+        <table border="1" class="tabulka">
+            <tr><th>Den</th><th>Čas</th></tr>
+            <tr><td>Pondělí - Pátek</td><td>8:00 - 18:00</td></tr>
+            <tr><td>Sobota</td><td>9:00 - 16:00</td></tr>
+            <tr><td>Neděle</td><td>Zavřeno</td></tr>
+        </table>
+    </div>
+    <h2 class="rezervace_nadpis">Rezervace:</h2>
+    <div class="rezervace">
+        <form>
+            <label>Jméno: <input type="text"></label><br>
+            <label>Email:    <input type="email" class="email"></label><br>
+            <button type="submit" class="odeslat">ODESLAT</button>
+        </form>
+    </div>
+    <img class="obrazek" src="images/kavarna.jpeg">
+</body>
+</html>
