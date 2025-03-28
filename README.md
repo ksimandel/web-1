@@ -1,1 +1,2 @@
-# web-1
+# Úkol č. 1.
+Kavárna
